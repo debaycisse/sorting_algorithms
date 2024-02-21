@@ -28,4 +28,7 @@ void print_list(const listint_t *list);
 void bubble_sort(int *array, size_t size);
 void _swap(int *array, int a, int b, size_t size);
 
+/* 1-insertion_sort_list.c */
+void insertion_sort_list(listint_t **list);
+
 #endif

@@ -30,5 +30,8 @@ void _swap(int *array, int a, int b, size_t size);
 
 /* 1-insertion_sort_list.c */
 void insertion_sort_list(listint_t **list);
+void insertion_sort(listint_t *srt, listint_t *unsorted, listint_t *l);
+void _swap_nodes(listint_t *big_n, listint_t *small_n, listint_t *l);
+void _swap_list(listint_t **list);
 
 #endif

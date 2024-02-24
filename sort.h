@@ -13,9 +13,9 @@
  */
 typedef struct listint_s
 {
-    const int n;
-    struct listint_s *prev;
-    struct listint_s *next;
+	const int n;
+	struct listint_s *prev;
+	struct listint_s *next;
 } listint_t;
 
 /*  print_array.c */
@@ -32,5 +32,8 @@ void _swap(int *array, int a, int b, size_t size);
 void insertion_sort_list(listint_t **list);
 void insertion_sort(listint_t *srtd, listint_t *unsrtd, listint_t **l);
 void _swap_nodes(listint_t *big_n, listint_t *small_n, listint_t **l);
+
+/* 2-selection_sort.c */
+void selection_sort(int *array, size_t size);
 
 #endif

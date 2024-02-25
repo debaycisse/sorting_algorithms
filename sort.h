@@ -24,7 +24,7 @@ void print_array(const int *array, size_t size);
 /* print_list.c  */
 void print_list(const listint_t *list);
 
-/* bubble_sort.c */
+/* 0-bubble_sort.c */
 void bubble_sort(int *array, size_t size);
 void _swap(int *array, int a, int b, size_t size);
 
@@ -35,5 +35,11 @@ void _swap_nodes(listint_t *big_n, listint_t *small_n, listint_t **l);
 
 /* 2-selection_sort.c */
 void selection_sort(int *array, size_t size);
+
+/* 3-quick_sort.c */
+void quick_sort(int *array, size_t size);
+void lomuto(int *array, size_t size, size_t *cur, int *pvt);
+int *pivot(int *array, size_t size, int *prev_pvt);
+void _swap2(int *array, int a, int b, size_t size);
 
 #endif
